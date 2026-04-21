@@ -1,3 +1,7 @@
+// Factory pattern = “Don’t ask how to create, just ask for what you need.”
+// Client code doesn’t care about which class is instantiated.
+// Add new types without modifying client code
+
 // Product
 abstract class Vehicle {
     public static Vehicle createVehicle() {
