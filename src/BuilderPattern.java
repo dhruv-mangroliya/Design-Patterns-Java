@@ -1,3 +1,8 @@
+// Explanation :- We have a product with some properties. We have one abstract class of Builder which provides abstract methods to set those properties and product.
+// Now, we implement different different concrete classes using abstract builder class and set properties accordingly for that product using overriding function.
+// Also, we have Director class which receives builder in parameter and invokes its setXYZ functions.
+// Flow: Director -> Builder's all set functions -> sets properties of Product in runtime polymorphism acc. to obj. type. -> Product created
+
 // Product
 class Desktop {
     int storageSize;
